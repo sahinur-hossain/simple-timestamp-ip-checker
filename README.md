@@ -12,7 +12,7 @@ A lightweight Python-based HTTP server that returns the current timestamp (in IS
 ### Clone the the Github repo
 ```bash
 git clone https://github.com/sahinur-hossain/simple-timestamp-ip-checker.git
-cd /simple-timestamp-ip-checker/app
+cd simple-timestamp-ip-checker/app
 ```
 Make sure you are in the directory containing the **Dockerfile** and **app.py** file
 

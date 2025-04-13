@@ -33,6 +33,7 @@ We can also change the host port as required.
 docker build -t secure-time-server .
 docker run -d -p 8080:5000 secure-time-server
 ```
+We can now access it in a browser
 
 ## 🛠️  Terraform Usage
 
@@ -46,8 +47,10 @@ cd simple-timestamp-ip-checker/terraform
 ```
 <b>Here we have <code>providers.tf</code> file, we would need to configure the secret and access key in order to deploy the resources </b>
 
-Once we have configured the access keys, we can initialize, plan and apply.
+Once we have configure the access keys, we can initialize, plan and apply.
 ```bash
 terraform init
 terraform plan
 terraform apply
+```
+Once the infra is deployed we will have the load balancer dns in the output, we can use this to acess the application.

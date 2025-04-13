@@ -46,7 +46,7 @@ cd simple-timestamp-ip-checker/terraform
 ```
 <b>Here we have <code>providers.tf</code> file, we would need to configure the secret and access key in order to deploy the resources </b>
 
-Once we have configure the access keys, we can initialize, plan and apply.
+Once we have configured the access keys, we can initialize, plan and apply.
 ```bash
 terraform init
 terraform plan

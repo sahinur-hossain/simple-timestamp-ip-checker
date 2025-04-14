@@ -7,9 +7,8 @@ terraform {
 }
 
 provider "aws" {
-  profile = "default"
   region = "ap-south-1"
 # Povide secret and access keys
-  access_key  = ""
-  secret_key  = ""
+#  access_key  = ""
+# secret_key  = ""
 }
